@@ -10,7 +10,6 @@
     background-size: cover;
 }
 .image{
-    border: 2px solid white;
     width:40%;
     height: 90%;
     border-radius: 20px;
@@ -22,7 +21,6 @@
     
 }
 .profile{
-    border: 2px solid white;
     width: 700px;
     height:100%;
     float: center;
@@ -31,7 +29,6 @@
 }
 
 .bio{
-    border: 2px solid white;
     width: 450px;
     height: 47%;
     float: center;
@@ -56,7 +53,7 @@
 }
 .profile button{
      color:white;
-    margin-top: 470px;
+    margin-top:500px;
     margin-left:170px;
     font-family: Cambria;
     font-size: 18px;
@@ -64,12 +61,104 @@
     background:black;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    border-right: none;
+    border-right:none;
+    
      padding-left: 10px;
-     width: 200px;
+     width: 300px;
      height: 40px;
      cursor: pointer;
 }
+.fa-arrow-right{
+    color: white;
+    margin-top: 430px;
+    margin-left:130px;
+    
+}
 .nav{
+    
+    width: 100px;
+    height: 85vh;
+    float: right;
 
+}
+.fa-solid{
+    color:white;
+    margin-top:50px;
+    margin-left:40px;
+    
+    border-radius:50%;
+    cursor: pointer;
+    box-shadow: 0 0 20px 10px rgba(103, 102, 102, 0.497);
+    border-radius: 50%;
+    
+    
+
+}
+.fa-user{
+    color:white;
+    margin-top:50px;
+    
+    border-radius:50%;
+    cursor: pointer;
+    box-shadow: 0 0 20px 10px rgba(103, 102, 102, 0.497);
+    border-radius: 50%;
+
+}
+.fa-toolbox{
+    color:white;
+    margin-top:50px;
+    
+    border-radius:50%;
+    cursor: pointer;
+    box-shadow: 0 0 20px 10px rgba(103, 102, 102, 0.497);
+    border-radius: 50%;
+}
+.fa-envelope-open{
+    color:white;
+    margin-top:50px;
+    
+    border-radius:50%;
+    cursor: pointer;
+    box-shadow: 0 0 20px 10px rgba(103, 102, 102, 0.497);
+    border-radius: 50%;
+}
+.fa-comments{
+    color:white;
+    margin-top:50px;
+   
+    border-radius:50%;
+    cursor: pointer;
+    box-shadow: 0 0 20px 10px rgba(103, 102, 102, 0.497);
+    border-radius: 50%;
+}
+.fa-lightbulb{
+    color:white;
+    margin-top:50px;
+    margin-bottom: 70px;
+   
+    border-radius:50%;
+    cursor: pointer;
+    box-shadow: 0 0 20px 10px rgba(103, 102, 102, 0.497);
+    border-radius: 50%;
+    
+}
+.nav :hover{
+    color: orange;
+
+}
+.profile .orange-color{
+    color: #ff7200;
+}
+.profile .cn{
+    width: 240px;
+    height: 50px;
+    border: 2px solid #ff7200;
+    border-radius: 20px;
+    background: black;
+    margin-top:500px;
+    color: white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-right:none;
+    
 }
